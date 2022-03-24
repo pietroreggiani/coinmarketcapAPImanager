@@ -1,2 +1,5 @@
 ^coinmarketcapAPImanager\.Rproj$
 ^\.Rproj\.user$
+^LICENSE\.md$
+desktop.ini
+^README\.Rmd$

@@ -25,7 +25,7 @@ coins_map = function(listing_status = c("active", "inactive", "untracked"),
                    exportfile = NULL){
 
   parameters = list( listing_status = paste(listing_status, collapse =","),
-                     aux = paste(aux, collapse = ","))
+                     aux = paste(aux, collapse = ",") )
 
   key = Sys.getenv("COINMARKETCAP_API_KEY")
 

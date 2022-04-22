@@ -21,7 +21,7 @@
 #'
 #' @examples
 coins_map = function(listing_status = c("active", "inactive", "untracked"),
-                   aux = c( 'platform','first_historical_data','last_historical_data','is_active,status'),
+                   aux = c( 'platform','first_historical_data','last_historical_data','is_active','status'),
                    exportfile = NULL){
 
   parameters = list( listing_status = paste(listing_status, collapse =","),

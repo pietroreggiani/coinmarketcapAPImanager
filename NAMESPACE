@@ -2,6 +2,7 @@
 
 export(categories)
 export(coins_map)
+export(metadata)
 import(data.table)
 import(httr)
 import(jsonlite)
